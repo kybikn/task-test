@@ -1,0 +1,130 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-desktop.png",
+        "test": "../bitmaps_test/20240318-200017/header-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-desktop.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/init/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.4409722222222222,
+          "misMatchPercentage": "0.44",
+          "analysisTime": 54
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-tablet.png",
+        "test": "../bitmaps_test/20240318-200017/header-tablet.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-tablet.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/init/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.959201388888889,
+          "misMatchPercentage": "0.96",
+          "analysisTime": 50
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-mobile.png",
+        "test": "../bitmaps_test/20240318-200017/header-mobile.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-mobile.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/init/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.0044444444444444444,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 14
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-overflow-desktop.png",
+        "test": "../bitmaps_test/20240318-200017/header-overflow-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-overflow-desktop.png",
+        "label": "header-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/init/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.9354166666666667,
+          "misMatchPercentage": "0.94",
+          "analysisTime": 54
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-overflow-mobile.png",
+        "test": "../bitmaps_test/20240318-200017/header-overflow-mobile.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-overflow-mobile.png",
+        "label": "header-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/init/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.0022222222222222222,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 34
+        }
+      },
+      "status": "pass"
+    }
+  ]
+}
