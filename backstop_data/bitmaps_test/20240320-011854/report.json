@@ -4,9 +4,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-desktop.log.json",
-        "test": "../bitmaps_test/20240320-013514/hero-desktop.png",
-        "testLog": "../bitmaps_test/20240320-013514/hero-desktop.log.json",
+        "test": "../bitmaps_test/20240320-011854/hero-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-desktop.png",
         "label": "hero",
@@ -23,7 +21,7 @@
           },
           "rawMisMatchPercentage": 0,
           "misMatchPercentage": "0.00",
-          "analysisTime": 141
+          "analysisTime": 72
         }
       },
       "status": "pass"
@@ -31,9 +29,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-tablet.log.json",
-        "test": "../bitmaps_test/20240320-013514/hero-tablet.png",
-        "testLog": "../bitmaps_test/20240320-013514/hero-tablet.log.json",
+        "test": "../bitmaps_test/20240320-011854/hero-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-tablet.png",
         "label": "hero",
@@ -50,18 +46,16 @@
           },
           "rawMisMatchPercentage": 5.889233117816092,
           "misMatchPercentage": "5.89",
-          "analysisTime": 221
+          "analysisTime": 152
         },
-        "diffImage": "../bitmaps_test/20240320-013514/failed_diff_hero-tablet.png"
+        "diffImage": "../bitmaps_test/20240320-011854/failed_diff_hero-tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-mobile.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-mobile.log.json",
-        "test": "../bitmaps_test/20240320-013514/hero-mobile.png",
-        "testLog": "../bitmaps_test/20240320-013514/hero-mobile.log.json",
+        "test": "../bitmaps_test/20240320-011854/hero-mobile.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-mobile.png",
         "label": "hero",
@@ -76,19 +70,18 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 3.0893333333333333,
-          "misMatchPercentage": "3.09",
-          "analysisTime": 78
-        }
+          "rawMisMatchPercentage": 26.587333333333333,
+          "misMatchPercentage": "26.59",
+          "analysisTime": 255
+        },
+        "diffImage": "../bitmaps_test/20240320-011854/failed_diff_hero-mobile.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-overflow-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-overflow-desktop.log.json",
-        "test": "../bitmaps_test/20240320-013514/hero-overflow-desktop.png",
-        "testLog": "../bitmaps_test/20240320-013514/hero-overflow-desktop.log.json",
+        "test": "../bitmaps_test/20240320-011854/hero-overflow-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-overflow-desktop.png",
         "label": "hero-overflow",
@@ -105,7 +98,7 @@
           },
           "rawMisMatchPercentage": 1.2259114583333333,
           "misMatchPercentage": "1.23",
-          "analysisTime": 186
+          "analysisTime": 95
         }
       },
       "status": "pass"
@@ -113,9 +106,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-underflow-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-underflow-tablet.log.json",
-        "test": "../bitmaps_test/20240320-013514/hero-underflow-tablet.png",
-        "testLog": "../bitmaps_test/20240320-013514/hero-underflow-tablet.log.json",
+        "test": "../bitmaps_test/20240320-011854/hero-underflow-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-underflow-tablet.png",
         "label": "hero-underflow",
@@ -132,7 +123,7 @@
           },
           "rawMisMatchPercentage": 2.5095896677927927,
           "misMatchPercentage": "2.51",
-          "analysisTime": 91
+          "analysisTime": 90
         }
       },
       "status": "pass"
