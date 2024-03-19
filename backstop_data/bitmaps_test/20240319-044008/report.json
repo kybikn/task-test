@@ -1,10 +1,10 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-desktop.png",
-        "test": "../bitmaps_test/20240319-214036/hero-desktop.png",
+        "test": "../bitmaps_test/20240319-044008/hero-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-desktop.png",
         "label": "hero",
@@ -19,17 +19,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0,
-          "misMatchPercentage": "0.00",
-          "analysisTime": 107
-        }
+          "rawMisMatchPercentage": 12.179253472222221,
+          "misMatchPercentage": "12.18",
+          "analysisTime": 605
+        },
+        "diffImage": "../bitmaps_test/20240319-044008/failed_diff_hero-desktop.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-tablet.png",
-        "test": "../bitmaps_test/20240319-214036/hero-tablet.png",
+        "test": "../bitmaps_test/20240319-044008/hero-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-tablet.png",
         "label": "hero",
@@ -44,18 +45,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 3.5008081896551726,
-          "misMatchPercentage": "3.50",
-          "analysisTime": 289
+          "rawMisMatchPercentage": 38.91500538793103,
+          "misMatchPercentage": "38.92",
+          "analysisTime": 633
         },
-        "diffImage": "../bitmaps_test/20240319-214036/failed_diff_hero-tablet.png"
+        "diffImage": "../bitmaps_test/20240319-044008/failed_diff_hero-tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-mobile.png",
-        "test": "../bitmaps_test/20240319-214036/hero-mobile.png",
+        "test": "../bitmaps_test/20240319-044008/hero-mobile.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-mobile.png",
         "label": "hero",
@@ -70,18 +71,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 26.497999999999998,
-          "misMatchPercentage": "26.50",
-          "analysisTime": 402
+          "rawMisMatchPercentage": 24.306666666666665,
+          "misMatchPercentage": "24.31",
+          "analysisTime": 384
         },
-        "diffImage": "../bitmaps_test/20240319-214036/failed_diff_hero-mobile.png"
+        "diffImage": "../bitmaps_test/20240319-044008/failed_diff_hero-mobile.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-overflow-desktop.png",
-        "test": "../bitmaps_test/20240319-214036/hero-overflow-desktop.png",
+        "test": "../bitmaps_test/20240319-044008/hero-overflow-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-overflow-desktop.png",
         "label": "hero-overflow",
@@ -90,23 +91,25 @@ report({
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
+        "engineErrorMsg": "Не удалось найти элемент содержащий текст «богатство кавказской кухни» для тестирования переполнения",
         "diff": {
           "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 1.2259114583333333,
-          "misMatchPercentage": "1.23",
-          "analysisTime": 190
-        }
+          "rawMisMatchPercentage": 67.28244357638889,
+          "misMatchPercentage": "67.28",
+          "analysisTime": 948
+        },
+        "diffImage": "../bitmaps_test/20240319-044008/failed_diff_hero-overflow-desktop.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-underflow-tablet.png",
-        "test": "../bitmaps_test/20240319-214036/hero-underflow-tablet.png",
+        "test": "../bitmaps_test/20240319-044008/hero-underflow-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-underflow-tablet.png",
         "label": "hero-underflow",
@@ -121,13 +124,13 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 7.486979166666667,
-          "misMatchPercentage": "7.49",
-          "analysisTime": 495
+          "rawMisMatchPercentage": 43.47748627533784,
+          "misMatchPercentage": "43.48",
+          "analysisTime": 788
         },
-        "diffImage": "../bitmaps_test/20240319-214036/failed_diff_hero-underflow-tablet.png"
+        "diffImage": "../bitmaps_test/20240319-044008/failed_diff_hero-underflow-tablet.png"
       },
       "status": "fail"
     }
   ]
-});
+}

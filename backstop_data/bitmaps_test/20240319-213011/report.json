@@ -1,10 +1,10 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-desktop.png",
-        "test": "../bitmaps_test/20240319-214036/hero-desktop.png",
+        "test": "../bitmaps_test/20240319-213011/hero-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-desktop.png",
         "label": "hero",
@@ -19,17 +19,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0,
-          "misMatchPercentage": "0.00",
-          "analysisTime": 107
-        }
+          "rawMisMatchPercentage": 10.294053819444445,
+          "misMatchPercentage": "10.29",
+          "analysisTime": 448
+        },
+        "diffImage": "../bitmaps_test/20240319-213011/failed_diff_hero-desktop.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-tablet.png",
-        "test": "../bitmaps_test/20240319-214036/hero-tablet.png",
+        "test": "../bitmaps_test/20240319-213011/hero-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-tablet.png",
         "label": "hero",
@@ -44,18 +45,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 3.5008081896551726,
-          "misMatchPercentage": "3.50",
-          "analysisTime": 289
+          "rawMisMatchPercentage": 12.665454382183908,
+          "misMatchPercentage": "12.67",
+          "analysisTime": 226
         },
-        "diffImage": "../bitmaps_test/20240319-214036/failed_diff_hero-tablet.png"
+        "diffImage": "../bitmaps_test/20240319-213011/failed_diff_hero-tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-mobile.png",
-        "test": "../bitmaps_test/20240319-214036/hero-mobile.png",
+        "test": "../bitmaps_test/20240319-213011/hero-mobile.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-mobile.png",
         "label": "hero",
@@ -70,18 +71,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 26.497999999999998,
-          "misMatchPercentage": "26.50",
-          "analysisTime": 402
+          "rawMisMatchPercentage": 28.48,
+          "misMatchPercentage": "28.48",
+          "analysisTime": 299
         },
-        "diffImage": "../bitmaps_test/20240319-214036/failed_diff_hero-mobile.png"
+        "diffImage": "../bitmaps_test/20240319-213011/failed_diff_hero-mobile.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-overflow-desktop.png",
-        "test": "../bitmaps_test/20240319-214036/hero-overflow-desktop.png",
+        "test": "../bitmaps_test/20240319-213011/hero-overflow-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-overflow-desktop.png",
         "label": "hero-overflow",
@@ -90,23 +91,25 @@ report({
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
+        "engineErrorMsg": "Не удалось найти элемент содержащий текст «Исследуйте вкусы» для тестирования переполнения",
         "diff": {
           "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 1.2259114583333333,
-          "misMatchPercentage": "1.23",
-          "analysisTime": 190
-        }
+          "rawMisMatchPercentage": 67.28244357638889,
+          "misMatchPercentage": "67.28",
+          "analysisTime": 927
+        },
+        "diffImage": "../bitmaps_test/20240319-213011/failed_diff_hero-overflow-desktop.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-underflow-tablet.png",
-        "test": "../bitmaps_test/20240319-214036/hero-underflow-tablet.png",
+        "test": "../bitmaps_test/20240319-213011/hero-underflow-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-underflow-tablet.png",
         "label": "hero-underflow",
@@ -115,19 +118,20 @@ report({
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
+        "engineErrorMsg": "Не удалось найти элемент содержащий текст «Исследуйте вкусы» для тестирования переполнения",
         "diff": {
           "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 7.486979166666667,
-          "misMatchPercentage": "7.49",
-          "analysisTime": 495
+          "rawMisMatchPercentage": 92.4901463963964,
+          "misMatchPercentage": "92.49",
+          "analysisTime": 941
         },
-        "diffImage": "../bitmaps_test/20240319-214036/failed_diff_hero-underflow-tablet.png"
+        "diffImage": "../bitmaps_test/20240319-213011/failed_diff_hero-underflow-tablet.png"
       },
       "status": "fail"
     }
   ]
-});
+}

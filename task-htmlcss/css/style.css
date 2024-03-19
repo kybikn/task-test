@@ -213,8 +213,8 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: #FFFFFF;
-  /* background-color: #FFFFFF; */
   background-color: #D2691E;
+  /* background-color: #ca1515; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -224,13 +224,24 @@ body {
   /* max-width: 1290px; */
   max-width: 1440px;
   /* max-width: 1170px; */
-  margin-inline: auto;
-  /* margin: 0 auto; */
+  /* margin-inline: auto; */
+  margin: 0 auto;
   /* padding: 40px 75px 24px */
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    /* padding: 20px 15px; */
+    /* padding: 15px; */
+    /* padding: 10px 15px; */
+    /* background-color: #81d21e; */
+  }
 }
 
 @media (max-width: 375px) {
   .container {
+    max-width: 768px;
     /* padding: 20px 15px; */
     /* padding: 15px; */
     /* padding: 10px 15px; */
@@ -249,7 +260,10 @@ body {
 }
 
 .page-header {
-  padding: 40px 75px 24px
+  min-height: 120px;
+  height: 100%;
+  padding: 40px 75px 24px;
+  background-color: #D2691E;
   /* padding-block: 40px; */
   /* margin-bottom: 10px */
   /* padding-block: 20px; */
@@ -444,82 +458,51 @@ body {
 }
 
 /* ------- */
-/* .container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 20px;
-} */
+
 .hero-container {
-  background-image: url("../img/hero.png");
+  background-image: url("../img/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: 100% auto; */
-  max-height: 640px;
-  height: 100%;
   background-size: cover;
-  /* background-size: auto;  */
-/* background-size: contain; */
-  /* height: 100%;
-  max-height: 580px; */
-  /* height: 580px; */
-  /* background-size: contain; */
-  /* height: 640px; */
-    /* height: 100%; */
-  /* padding-top: 395px;
-  padding-left: 80px; */
-  /* margin-top: 0; */
-  /* padding: 72px 105px 170px 105px; */
-  /* padding: 55px 105px 170px 105px; */
-  /* padding: 105px 105px 25px 105px; */
-  /* height: 640px; */
+  min-height: 640px;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
   .hero-container  {
-    background-position: center -120px;
+    position: relative;
+    /* min-height: 580px; */
+    min-height: 592px;
+    /* max-height: 592px; */
     height: 100%;
-    max-height: 580px;
-    /* padding: 0; */
-    /* padding: 105px 105px 170px 105px; */
-    /* padding: 0 80px 70px 80px; */
-    /* padding-block: 17px; */
-    /* background-size: 100% auto; */
-    /* background-image: url("../img/hero.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100%; */
   }
 }
 
-
 .hero-box {
-  padding: 72px 0 170px 105px;
   max-width: 890px;
-  /* padding: 72px 105px 170px 105px; */
-  /* display: flex;
-  flex-direction: column; */
-/* align-items: center; */
-/* justify-content: space-between; */
-  /* padding-right: 30px; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 125px 0 0 105px;
 }
 
 @media (max-width: 768px) {
   .hero-box {
-    /* display: block; */
-  /* height: 580px; */
-  /* display: flex; */
-  flex-direction: column;
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
+  max-width: 660px;
+  padding: 0 0 0 110px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
   align-items: center;
-/* justify-content: center; */
+  justify-content: center;
   text-align: center;
-  max-width: 768px;
-  /* padding: 72px 0 170px 105px; */
-    /* padding-block: 17px; */
   }
 }
 
 .hero-title {
-  margin-bottom: 30px;
+  margin: 0;
   font-family: "Playfair", serif;
   font-size: 77px;
   line-height: 77px;
@@ -530,18 +513,17 @@ body {
   .hero-title {
     font-size: 56px;
     line-height: 56px;
-    margin-bottom: 15px;
+    /* padding-top: 10px; */
+    /* margin-top: 10px; */
   }
 }
 
 .hero-text {
-  /* display: flex; */
+  margin: 0;
   max-width: 500px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  margin-bottom: 25px;
-  /* gap: 40px; */
 }
 
 @media (max-width: 768px) {
@@ -551,7 +533,6 @@ body {
 }
 
 .hero-button {
-  /* display: inline-block; */
   height: 60px;
   width: 240px;
   border-radius: 5px;
@@ -563,9 +544,14 @@ body {
   line-height: 19.5px;
   transition: 0.7s;
   padding: 20px 0;
-  margin-top: 5px;
   color: #FFFFFF;
   background: #D2691E;
+}
+
+@media (max-width: 768px) {
+  .hero-button{
+    /* margin-bottom: 10px; */
+  }
 }
 
 

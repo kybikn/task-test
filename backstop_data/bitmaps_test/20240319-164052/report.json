@@ -1,10 +1,10 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-desktop.png",
-        "test": "../bitmaps_test/20240319-214036/hero-desktop.png",
+        "test": "../bitmaps_test/20240319-164052/hero-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-desktop.png",
         "label": "hero",
@@ -19,9 +19,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0,
-          "misMatchPercentage": "0.00",
-          "analysisTime": 107
+          "rawMisMatchPercentage": 1.0390625,
+          "misMatchPercentage": "1.04",
+          "analysisTime": 101
         }
       },
       "status": "pass"
@@ -29,7 +29,7 @@ report({
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-tablet.png",
-        "test": "../bitmaps_test/20240319-214036/hero-tablet.png",
+        "test": "../bitmaps_test/20240319-164052/hero-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-tablet.png",
         "label": "hero",
@@ -44,18 +44,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 3.5008081896551726,
-          "misMatchPercentage": "3.50",
-          "analysisTime": 289
+          "rawMisMatchPercentage": 28.08503951149425,
+          "misMatchPercentage": "28.09",
+          "analysisTime": 446
         },
-        "diffImage": "../bitmaps_test/20240319-214036/failed_diff_hero-tablet.png"
+        "diffImage": "../bitmaps_test/20240319-164052/failed_diff_hero-tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-mobile.png",
-        "test": "../bitmaps_test/20240319-214036/hero-mobile.png",
+        "test": "../bitmaps_test/20240319-164052/hero-mobile.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-mobile.png",
         "label": "hero",
@@ -70,18 +70,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 26.497999999999998,
-          "misMatchPercentage": "26.50",
-          "analysisTime": 402
+          "rawMisMatchPercentage": 33.169333333333334,
+          "misMatchPercentage": "33.17",
+          "analysisTime": 266
         },
-        "diffImage": "../bitmaps_test/20240319-214036/failed_diff_hero-mobile.png"
+        "diffImage": "../bitmaps_test/20240319-164052/failed_diff_hero-mobile.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-overflow-desktop.png",
-        "test": "../bitmaps_test/20240319-214036/hero-overflow-desktop.png",
+        "test": "../bitmaps_test/20240319-164052/hero-overflow-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-overflow-desktop.png",
         "label": "hero-overflow",
@@ -96,9 +96,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 1.2259114583333333,
-          "misMatchPercentage": "1.23",
-          "analysisTime": 190
+          "rawMisMatchPercentage": 1.9166666666666665,
+          "misMatchPercentage": "1.92",
+          "analysisTime": 110
         }
       },
       "status": "pass"
@@ -106,7 +106,7 @@ report({
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-underflow-tablet.png",
-        "test": "../bitmaps_test/20240319-214036/hero-underflow-tablet.png",
+        "test": "../bitmaps_test/20240319-164052/hero-underflow-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-underflow-tablet.png",
         "label": "hero-underflow",
@@ -121,13 +121,13 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 7.486979166666667,
-          "misMatchPercentage": "7.49",
-          "analysisTime": 495
+          "rawMisMatchPercentage": 34.873398789414416,
+          "misMatchPercentage": "34.87",
+          "analysisTime": 636
         },
-        "diffImage": "../bitmaps_test/20240319-214036/failed_diff_hero-underflow-tablet.png"
+        "diffImage": "../bitmaps_test/20240319-164052/failed_diff_hero-underflow-tablet.png"
       },
       "status": "fail"
     }
   ]
-});
+}
