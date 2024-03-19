@@ -4,9 +4,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-desktop.log.json",
         "test": "../bitmaps_test/20240319-041158/hero-desktop.png",
-        "testLog": "../bitmaps_test/20240319-041158/hero-desktop.log.json",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-desktop.png",
         "label": "hero",
@@ -31,9 +29,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-tablet.log.json",
         "test": "../bitmaps_test/20240319-041158/hero-tablet.png",
-        "testLog": "../bitmaps_test/20240319-041158/hero-tablet.log.json",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-tablet.png",
         "label": "hero",
@@ -59,9 +55,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-mobile.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-mobile.log.json",
         "test": "../bitmaps_test/20240319-041158/hero-mobile.png",
-        "testLog": "../bitmaps_test/20240319-041158/hero-mobile.log.json",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-mobile.png",
         "label": "hero",
@@ -87,9 +81,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-overflow-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-overflow-desktop.log.json",
         "test": "../bitmaps_test/20240319-041158/hero-overflow-desktop.png",
-        "testLog": "../bitmaps_test/20240319-041158/hero-overflow-desktop.log.json",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-overflow-desktop.png",
         "label": "hero-overflow",
@@ -114,9 +106,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-underflow-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-underflow-tablet.log.json",
         "test": "../bitmaps_test/20240319-041158/hero-underflow-tablet.png",
-        "testLog": "../bitmaps_test/20240319-041158/hero-underflow-tablet.log.json",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-underflow-tablet.png",
         "label": "hero-underflow",

@@ -3,14 +3,14 @@ report({
   "tests": [
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/header-strict-desktop.png",
-        "test": "../bitmaps_test/20240318-200224/header-strict-desktop.png",
-        "selector": "[data-test=\"header\"]",
-        "fileName": "header-strict-desktop.png",
-        "label": "header-strict",
+        "reference": "../../test-htmlcss/reference/hero-desktop.png",
+        "test": "../bitmaps_test/20240319-041158/hero-desktop.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-desktop.png",
+        "label": "hero",
         "requireSameDimensions": true,
-        "misMatchThreshold": 0.7,
-        "url": "file:///Users/kybikn/Documents/Programming/Проекты/init/task-htmlcss/index.html",
+        "misMatchThreshold": 3,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
         "diff": {
@@ -19,23 +19,23 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.4409722222222222,
-          "misMatchPercentage": "0.44",
-          "analysisTime": 31
+          "rawMisMatchPercentage": 0.9411892361111112,
+          "misMatchPercentage": "0.94",
+          "analysisTime": 135
         }
       },
       "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/header-strict-tablet.png",
-        "test": "../bitmaps_test/20240318-200224/header-strict-tablet.png",
-        "selector": "[data-test=\"header\"]",
-        "fileName": "header-strict-tablet.png",
-        "label": "header-strict",
+        "reference": "../../test-htmlcss/reference/hero-tablet.png",
+        "test": "../bitmaps_test/20240319-041158/hero-tablet.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-tablet.png",
+        "label": "hero",
         "requireSameDimensions": true,
-        "misMatchThreshold": 0.7,
-        "url": "file:///Users/kybikn/Documents/Programming/Проекты/init/task-htmlcss/index.html",
+        "misMatchThreshold": 3,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
         "diff": {
@@ -44,23 +44,24 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.4047309027777778,
-          "misMatchPercentage": "0.40",
-          "analysisTime": 48
-        }
+          "rawMisMatchPercentage": 39.32897808908046,
+          "misMatchPercentage": "39.33",
+          "analysisTime": 559
+        },
+        "diffImage": "../bitmaps_test/20240319-041158/failed_diff_hero-tablet.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/header-strict-mobile.png",
-        "test": "../bitmaps_test/20240318-200224/header-strict-mobile.png",
-        "selector": "[data-test=\"header\"]",
-        "fileName": "header-strict-mobile.png",
-        "label": "header-strict",
+        "reference": "../../test-htmlcss/reference/hero-mobile.png",
+        "test": "../bitmaps_test/20240319-041158/hero-mobile.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-mobile.png",
+        "label": "hero",
         "requireSameDimensions": true,
-        "misMatchThreshold": 0.3,
-        "url": "file:///Users/kybikn/Documents/Programming/Проекты/init/task-htmlcss/index.html",
+        "misMatchThreshold": 4,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
         "diff": {
@@ -69,23 +70,24 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.0044444444444444444,
-          "misMatchPercentage": "0.00",
-          "analysisTime": 45
-        }
+          "rawMisMatchPercentage": 25.826,
+          "misMatchPercentage": "25.83",
+          "analysisTime": 153
+        },
+        "diffImage": "../bitmaps_test/20240319-041158/failed_diff_hero-mobile.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/header-overflow-strict-desktop.png",
-        "test": "../bitmaps_test/20240318-200224/header-overflow-strict-desktop.png",
-        "selector": "[data-test=\"header\"]",
-        "fileName": "header-overflow-strict-desktop.png",
-        "label": "header-overflow-strict",
+        "reference": "../../test-htmlcss/reference/hero-overflow-desktop.png",
+        "test": "../bitmaps_test/20240319-041158/hero-overflow-desktop.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-overflow-desktop.png",
+        "label": "hero-overflow",
         "requireSameDimensions": true,
-        "misMatchThreshold": 1,
-        "url": "file:///Users/kybikn/Documents/Programming/Проекты/init/task-htmlcss/index.html",
+        "misMatchThreshold": 3,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
         "diff": {
@@ -94,37 +96,38 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.9354166666666667,
-          "misMatchPercentage": "0.94",
-          "analysisTime": 63
+          "rawMisMatchPercentage": 1.4112413194444444,
+          "misMatchPercentage": "1.41",
+          "analysisTime": 222
         }
       },
       "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/header-overflow-strict-mobile.png",
-        "test": "../bitmaps_test/20240318-200224/header-overflow-strict-mobile.png",
-        "selector": "[data-test=\"header\"]",
-        "fileName": "header-overflow-strict-mobile.png",
-        "label": "header-overflow-strict",
+        "reference": "../../test-htmlcss/reference/hero-underflow-tablet.png",
+        "test": "../bitmaps_test/20240319-041158/hero-underflow-tablet.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-underflow-tablet.png",
+        "label": "hero-underflow",
         "requireSameDimensions": true,
-        "misMatchThreshold": 1,
-        "url": "file:///Users/kybikn/Documents/Programming/Проекты/init/task-htmlcss/index.html",
+        "misMatchThreshold": 3,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
-        "viewportLabel": "mobile",
+        "viewportLabel": "tablet",
         "diff": {
           "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.0022222222222222222,
-          "misMatchPercentage": "0.00",
-          "analysisTime": 28
-        }
+          "rawMisMatchPercentage": 42.932898719031535,
+          "misMatchPercentage": "42.93",
+          "analysisTime": 539
+        },
+        "diffImage": "../bitmaps_test/20240319-041158/failed_diff_hero-underflow-tablet.png"
       },
-      "status": "pass"
+      "status": "fail"
     }
   ]
 });
