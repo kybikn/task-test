@@ -3,15 +3,15 @@
   "tests": [
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-desktop.log.json",
-        "test": "../bitmaps_test/20240320-094650/events-desktop.png",
-        "testLog": "../bitmaps_test/20240320-094650/events-desktop.log.json",
+        "reference": "../../test-htmlcss/reference/events-strict-desktop.png",
+        "referenceLog": "../../test-htmlcss/reference/events-strict-desktop.log.json",
+        "test": "../bitmaps_test/20240320-185132/events-strict-desktop.png",
+        "testLog": "../bitmaps_test/20240320-185132/events-strict-desktop.log.json",
         "selector": "[data-test=\"events\"]",
-        "fileName": "events-desktop.png",
-        "label": "events",
+        "fileName": "events-strict-desktop.png",
+        "label": "events-strict",
         "requireSameDimensions": true,
-        "misMatchThreshold": 3,
+        "misMatchThreshold": 0.7,
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -23,22 +23,22 @@
           },
           "rawMisMatchPercentage": 0.6316754344014028,
           "misMatchPercentage": "0.63",
-          "analysisTime": 107
+          "analysisTime": 145
         }
       },
       "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-mobile.png",
-        "referenceLog": "../../test-htmlcss/reference/events-mobile.log.json",
-        "test": "../bitmaps_test/20240320-094650/events-mobile.png",
-        "testLog": "../bitmaps_test/20240320-094650/events-mobile.log.json",
+        "reference": "../../test-htmlcss/reference/events-strict-mobile.png",
+        "referenceLog": "../../test-htmlcss/reference/events-strict-mobile.log.json",
+        "test": "../bitmaps_test/20240320-185132/events-strict-mobile.png",
+        "testLog": "../bitmaps_test/20240320-185132/events-strict-mobile.log.json",
         "selector": "[data-test=\"events\"]",
-        "fileName": "events-mobile.png",
-        "label": "events",
+        "fileName": "events-strict-mobile.png",
+        "label": "events-strict",
         "requireSameDimensions": true,
-        "misMatchThreshold": 3,
+        "misMatchThreshold": 0.7,
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -48,24 +48,24 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 1.4992025518341308,
-          "misMatchPercentage": "1.50",
-          "analysisTime": 61
+          "rawMisMatchPercentage": 0.6524189261031367,
+          "misMatchPercentage": "0.65",
+          "analysisTime": 207
         }
       },
       "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/events-tablet.log.json",
-        "test": "../bitmaps_test/20240320-094650/events-tablet.png",
-        "testLog": "../bitmaps_test/20240320-094650/events-tablet.log.json",
+        "reference": "../../test-htmlcss/reference/events-strict-tablet.png",
+        "referenceLog": "../../test-htmlcss/reference/events-strict-tablet.log.json",
+        "test": "../bitmaps_test/20240320-185132/events-strict-tablet.png",
+        "testLog": "../bitmaps_test/20240320-185132/events-strict-tablet.log.json",
         "selector": "[data-test=\"events\"]",
-        "fileName": "events-tablet.png",
-        "label": "events",
+        "fileName": "events-strict-tablet.png",
+        "label": "events-strict",
         "requireSameDimensions": true,
-        "misMatchThreshold": 3,
+        "misMatchThreshold": 1,
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
@@ -75,8 +75,8 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 1.2853899572649572,
-          "misMatchPercentage": "1.29",
+          "rawMisMatchPercentage": 0.6282601181498241,
+          "misMatchPercentage": "0.63",
           "analysisTime": 135
         }
       },
@@ -84,15 +84,15 @@
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-overflow-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-overflow-desktop.log.json",
-        "test": "../bitmaps_test/20240320-094650/events-overflow-desktop.png",
-        "testLog": "../bitmaps_test/20240320-094650/events-overflow-desktop.log.json",
+        "reference": "../../test-htmlcss/reference/events-overflow-strict-desktop.png",
+        "referenceLog": "../../test-htmlcss/reference/events-overflow-strict-desktop.log.json",
+        "test": "../bitmaps_test/20240320-185132/events-overflow-strict-desktop.png",
+        "testLog": "../bitmaps_test/20240320-185132/events-overflow-strict-desktop.log.json",
         "selector": "[data-test=\"events\"]",
-        "fileName": "events-overflow-desktop.png",
-        "label": "events-overflow",
+        "fileName": "events-overflow-strict-desktop.png",
+        "label": "events-overflow-strict",
         "requireSameDimensions": true,
-        "misMatchThreshold": 3,
+        "misMatchThreshold": 0.7,
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -104,22 +104,23 @@
           },
           "rawMisMatchPercentage": 0.7209469153515065,
           "misMatchPercentage": "0.72",
-          "analysisTime": 105
-        }
+          "analysisTime": 143
+        },
+        "diffImage": "../bitmaps_test/20240320-185132/failed_diff_events-overflow-strict-desktop.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-underflow-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-underflow-desktop.log.json",
-        "test": "../bitmaps_test/20240320-094650/events-underflow-desktop.png",
-        "testLog": "../bitmaps_test/20240320-094650/events-underflow-desktop.log.json",
+        "reference": "../../test-htmlcss/reference/events-underflow-strict-desktop.png",
+        "referenceLog": "../../test-htmlcss/reference/events-underflow-strict-desktop.log.json",
+        "test": "../bitmaps_test/20240320-185132/events-underflow-strict-desktop.png",
+        "testLog": "../bitmaps_test/20240320-185132/events-underflow-strict-desktop.log.json",
         "selector": "[data-test=\"events\"]",
-        "fileName": "events-underflow-desktop.png",
-        "label": "events-underflow",
+        "fileName": "events-underflow-strict-desktop.png",
+        "label": "events-underflow-strict",
         "requireSameDimensions": true,
-        "misMatchThreshold": 3,
+        "misMatchThreshold": 0.7,
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -131,7 +132,7 @@
           },
           "rawMisMatchPercentage": 0.4759485094850948,
           "misMatchPercentage": "0.48",
-          "analysisTime": 123
+          "analysisTime": 187
         }
       },
       "status": "pass"

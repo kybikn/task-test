@@ -1,15 +1,15 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-strict-desktop.png",
-        "test": "../bitmaps_test/20240320-185132/events-strict-desktop.png",
+        "reference": "../../test-htmlcss/reference/events-desktop.png",
+        "test": "../bitmaps_test/20240320-181127/events-desktop.png",
         "selector": "[data-test=\"events\"]",
-        "fileName": "events-strict-desktop.png",
-        "label": "events-strict",
+        "fileName": "events-desktop.png",
+        "label": "events",
         "requireSameDimensions": true,
-        "misMatchThreshold": 0.7,
+        "misMatchThreshold": 3,
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -21,20 +21,20 @@ report({
           },
           "rawMisMatchPercentage": 0.6316754344014028,
           "misMatchPercentage": "0.63",
-          "analysisTime": 145
+          "analysisTime": 94
         }
       },
       "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-strict-mobile.png",
-        "test": "../bitmaps_test/20240320-185132/events-strict-mobile.png",
+        "reference": "../../test-htmlcss/reference/events-mobile.png",
+        "test": "../bitmaps_test/20240320-181127/events-mobile.png",
         "selector": "[data-test=\"events\"]",
-        "fileName": "events-strict-mobile.png",
-        "label": "events-strict",
+        "fileName": "events-mobile.png",
+        "label": "events",
         "requireSameDimensions": true,
-        "misMatchThreshold": 0.7,
+        "misMatchThreshold": 3,
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -44,22 +44,22 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.6524189261031367,
-          "misMatchPercentage": "0.65",
-          "analysisTime": 207
+          "rawMisMatchPercentage": 1.4992025518341308,
+          "misMatchPercentage": "1.50",
+          "analysisTime": 64
         }
       },
       "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-strict-tablet.png",
-        "test": "../bitmaps_test/20240320-185132/events-strict-tablet.png",
+        "reference": "../../test-htmlcss/reference/events-tablet.png",
+        "test": "../bitmaps_test/20240320-181127/events-tablet.png",
         "selector": "[data-test=\"events\"]",
-        "fileName": "events-strict-tablet.png",
-        "label": "events-strict",
+        "fileName": "events-tablet.png",
+        "label": "events",
         "requireSameDimensions": true,
-        "misMatchThreshold": 1,
+        "misMatchThreshold": 3,
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
@@ -69,22 +69,22 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.6282601181498241,
-          "misMatchPercentage": "0.63",
-          "analysisTime": 135
+          "rawMisMatchPercentage": 1.2853899572649572,
+          "misMatchPercentage": "1.29",
+          "analysisTime": 97
         }
       },
       "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-overflow-strict-desktop.png",
-        "test": "../bitmaps_test/20240320-185132/events-overflow-strict-desktop.png",
+        "reference": "../../test-htmlcss/reference/events-overflow-desktop.png",
+        "test": "../bitmaps_test/20240320-181127/events-overflow-desktop.png",
         "selector": "[data-test=\"events\"]",
-        "fileName": "events-overflow-strict-desktop.png",
-        "label": "events-overflow-strict",
+        "fileName": "events-overflow-desktop.png",
+        "label": "events-overflow",
         "requireSameDimensions": true,
-        "misMatchThreshold": 0.7,
+        "misMatchThreshold": 3,
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -96,21 +96,20 @@ report({
           },
           "rawMisMatchPercentage": 0.7209469153515065,
           "misMatchPercentage": "0.72",
-          "analysisTime": 143
-        },
-        "diffImage": "../bitmaps_test/20240320-185132/failed_diff_events-overflow-strict-desktop.png"
+          "analysisTime": 93
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-underflow-strict-desktop.png",
-        "test": "../bitmaps_test/20240320-185132/events-underflow-strict-desktop.png",
+        "reference": "../../test-htmlcss/reference/events-underflow-desktop.png",
+        "test": "../bitmaps_test/20240320-181127/events-underflow-desktop.png",
         "selector": "[data-test=\"events\"]",
-        "fileName": "events-underflow-strict-desktop.png",
-        "label": "events-underflow-strict",
+        "fileName": "events-underflow-desktop.png",
+        "label": "events-underflow",
         "requireSameDimensions": true,
-        "misMatchThreshold": 0.7,
+        "misMatchThreshold": 3,
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -122,10 +121,10 @@ report({
           },
           "rawMisMatchPercentage": 0.4759485094850948,
           "misMatchPercentage": "0.48",
-          "analysisTime": 187
+          "analysisTime": 88
         }
       },
       "status": "pass"
     }
   ]
-});
+}

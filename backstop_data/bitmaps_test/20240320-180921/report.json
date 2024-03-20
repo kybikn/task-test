@@ -1,0 +1,133 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/hero-strict-desktop.png",
+        "test": "../bitmaps_test/20240320-180921/hero-strict-desktop.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-strict-desktop.png",
+        "label": "hero-strict",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.004231770833333334,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 101
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/hero-strict-tablet.png",
+        "test": "../bitmaps_test/20240320-180921/hero-strict-tablet.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-strict-tablet.png",
+        "label": "hero-strict",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.901131465517241,
+          "misMatchPercentage": "5.90",
+          "analysisTime": 146
+        },
+        "diffImage": "../bitmaps_test/20240320-180921/failed_diff_hero-strict-tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/hero-strict-mobile.png",
+        "test": "../bitmaps_test/20240320-180921/hero-strict-mobile.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-strict-mobile.png",
+        "label": "hero-strict",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 2,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 3.0893333333333333,
+          "misMatchPercentage": "3.09",
+          "analysisTime": 62
+        },
+        "diffImage": "../bitmaps_test/20240320-180921/failed_diff_hero-strict-mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/hero-overflow-strict-desktop.png",
+        "test": "../bitmaps_test/20240320-180921/hero-overflow-strict-desktop.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-overflow-strict-desktop.png",
+        "label": "hero-overflow-strict",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.5,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.2301432291666665,
+          "misMatchPercentage": "1.23",
+          "analysisTime": 97
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/hero-underflow-strict-tablet.png",
+        "test": "../bitmaps_test/20240320-180921/hero-underflow-strict-tablet.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-underflow-strict-tablet.png",
+        "label": "hero-underflow-strict",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.5,
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.52124683277027,
+          "misMatchPercentage": "2.52",
+          "analysisTime": 179
+        },
+        "diffImage": "../bitmaps_test/20240320-180921/failed_diff_hero-underflow-strict-tablet.png"
+      },
+      "status": "fail"
+    }
+  ]
+}
