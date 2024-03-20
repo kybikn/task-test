@@ -498,6 +498,14 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .events-container{
+    min-height: 663px;
+    height: 100%;
+    padding: 60px 45px 40px;
+  }
+}
+
 .events-title {
   margin: 0;
   font-family: "Playfair", serif;
@@ -507,12 +515,27 @@ body {
   color: #513833;
 }
 
+@media (max-width: 768px) {
+  .events-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+  }
+}
+
 .events-box {
   display: flex;
   justify-content: space-between;
   gap: 30px;
   padding: 0;
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .events-box {
+    margin: 0 0 50px 0;
+  }
 }
 
 .events-card {
@@ -529,6 +552,13 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+@media (max-width: 768px) {
+  .events-card {
+    min-width: 324px;
+    border-radius: 10px;
+  }
+}
+
 .card-1 {
   background-image: url("../img/card1.jpg");
 }
@@ -539,6 +569,12 @@ background-size: cover;
 
 .card-3 {
   background-image: url("../img/card3.jpg");
+}
+
+@media (max-width: 768px) {
+  .card-3 {
+   display: none;
+  }
 }
 
 .events-card-button {
@@ -645,6 +681,12 @@ padding-right: 10px;
   left: 19%;
   right: 0;
   bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .events-link::after {
+    left: 35%;
+  }
 }
 
 /* -------------rating------------- */
