@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-strict-desktop.png",
-        "test": "../bitmaps_test/20240320-221457/hero-strict-desktop.png",
+        "test": "../bitmaps_test/20240320-222622/hero-strict-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-strict-desktop.png",
         "label": "hero-strict",
@@ -21,7 +21,7 @@ report({
           },
           "rawMisMatchPercentage": 0.004231770833333334,
           "misMatchPercentage": "0.00",
-          "analysisTime": 132
+          "analysisTime": 79
         }
       },
       "status": "pass"
@@ -29,7 +29,7 @@ report({
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-strict-tablet.png",
-        "test": "../bitmaps_test/20240320-221457/hero-strict-tablet.png",
+        "test": "../bitmaps_test/20240320-222622/hero-strict-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-strict-tablet.png",
         "label": "hero-strict",
@@ -46,7 +46,7 @@ report({
           },
           "rawMisMatchPercentage": 0.011898347701149425,
           "misMatchPercentage": "0.01",
-          "analysisTime": 47
+          "analysisTime": 73
         }
       },
       "status": "pass"
@@ -54,7 +54,7 @@ report({
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-strict-mobile.png",
-        "test": "../bitmaps_test/20240320-221457/hero-strict-mobile.png",
+        "test": "../bitmaps_test/20240320-222622/hero-strict-mobile.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-strict-mobile.png",
         "label": "hero-strict",
@@ -71,7 +71,7 @@ report({
           },
           "rawMisMatchPercentage": 0.24266666666666667,
           "misMatchPercentage": "0.24",
-          "analysisTime": 43
+          "analysisTime": 35
         }
       },
       "status": "pass"
@@ -79,7 +79,7 @@ report({
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-overflow-strict-desktop.png",
-        "test": "../bitmaps_test/20240320-221457/hero-overflow-strict-desktop.png",
+        "test": "../bitmaps_test/20240320-222622/hero-overflow-strict-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-overflow-strict-desktop.png",
         "label": "hero-overflow-strict",
@@ -96,7 +96,7 @@ report({
           },
           "rawMisMatchPercentage": 1.2301432291666665,
           "misMatchPercentage": "1.23",
-          "analysisTime": 132
+          "analysisTime": 99
         }
       },
       "status": "pass"
@@ -104,7 +104,7 @@ report({
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-underflow-strict-tablet.png",
-        "test": "../bitmaps_test/20240320-221457/hero-underflow-strict-tablet.png",
+        "test": "../bitmaps_test/20240320-222622/hero-underflow-strict-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-underflow-strict-tablet.png",
         "label": "hero-underflow-strict",
@@ -121,9 +121,9 @@ report({
           },
           "rawMisMatchPercentage": 10.43360254786036,
           "misMatchPercentage": "10.43",
-          "analysisTime": 140
+          "analysisTime": 264
         },
-        "diffImage": "../bitmaps_test/20240320-221457/failed_diff_hero-underflow-strict-tablet.png"
+        "diffImage": "../bitmaps_test/20240320-222622/failed_diff_hero-underflow-strict-tablet.png"
       },
       "status": "fail"
     }

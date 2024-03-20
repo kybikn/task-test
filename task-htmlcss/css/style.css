@@ -389,8 +389,10 @@ body {
   .hero-container  {
     position: relative;
     /* min-height: 592px; */
+    /* max-height: 592px; */
     min-height: 580px;
     height: 100%;
+   /* margin-bottom: 10px; */
   }
 }
 

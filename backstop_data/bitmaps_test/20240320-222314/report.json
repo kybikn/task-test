@@ -4,9 +4,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-strict-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-strict-desktop.log.json",
-        "test": "../bitmaps_test/20240320-222622/hero-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-222622/hero-strict-desktop.log.json",
+        "test": "../bitmaps_test/20240320-222314/hero-strict-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-strict-desktop.png",
         "label": "hero-strict",
@@ -21,19 +19,18 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.004231770833333334,
-          "misMatchPercentage": "0.00",
-          "analysisTime": 79
-        }
+          "rawMisMatchPercentage": 10.296006944444445,
+          "misMatchPercentage": "10.30",
+          "analysisTime": 386
+        },
+        "diffImage": "../bitmaps_test/20240320-222314/failed_diff_hero-strict-desktop.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-strict-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-strict-tablet.log.json",
-        "test": "../bitmaps_test/20240320-222622/hero-strict-tablet.png",
-        "testLog": "../bitmaps_test/20240320-222622/hero-strict-tablet.log.json",
+        "test": "../bitmaps_test/20240320-222314/hero-strict-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-strict-tablet.png",
         "label": "hero-strict",
@@ -48,19 +45,18 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.011898347701149425,
-          "misMatchPercentage": "0.01",
-          "analysisTime": 73
-        }
+          "rawMisMatchPercentage": 12.682067169540229,
+          "misMatchPercentage": "12.68",
+          "analysisTime": 119
+        },
+        "diffImage": "../bitmaps_test/20240320-222314/failed_diff_hero-strict-tablet.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-strict-mobile.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-strict-mobile.log.json",
-        "test": "../bitmaps_test/20240320-222622/hero-strict-mobile.png",
-        "testLog": "../bitmaps_test/20240320-222622/hero-strict-mobile.log.json",
+        "test": "../bitmaps_test/20240320-222314/hero-strict-mobile.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-strict-mobile.png",
         "label": "hero-strict",
@@ -75,19 +71,18 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.24266666666666667,
-          "misMatchPercentage": "0.24",
-          "analysisTime": 35
-        }
+          "rawMisMatchPercentage": 19.853333333333335,
+          "misMatchPercentage": "19.85",
+          "analysisTime": 59
+        },
+        "diffImage": "../bitmaps_test/20240320-222314/failed_diff_hero-strict-mobile.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-overflow-strict-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-overflow-strict-desktop.log.json",
-        "test": "../bitmaps_test/20240320-222622/hero-overflow-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-222622/hero-overflow-strict-desktop.log.json",
+        "test": "../bitmaps_test/20240320-222314/hero-overflow-strict-desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-overflow-strict-desktop.png",
         "label": "hero-overflow-strict",
@@ -96,25 +91,25 @@
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
+        "engineErrorMsg": "Не удалось найти элемент содержащий текст «Исследуйте вкусы» для тестирования переполнения",
         "diff": {
           "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 1.2301432291666665,
-          "misMatchPercentage": "1.23",
-          "analysisTime": 99
-        }
+          "rawMisMatchPercentage": 67.28244357638889,
+          "misMatchPercentage": "67.28",
+          "analysisTime": 743
+        },
+        "diffImage": "../bitmaps_test/20240320-222314/failed_diff_hero-overflow-strict-desktop.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-underflow-strict-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-underflow-strict-tablet.log.json",
-        "test": "../bitmaps_test/20240320-222622/hero-underflow-strict-tablet.png",
-        "testLog": "../bitmaps_test/20240320-222622/hero-underflow-strict-tablet.log.json",
+        "test": "../bitmaps_test/20240320-222314/hero-underflow-strict-tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-underflow-strict-tablet.png",
         "label": "hero-underflow-strict",
@@ -123,17 +118,18 @@
         "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-htmlcss/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
+        "engineErrorMsg": "Не удалось найти элемент содержащий текст «Исследуйте вкусы» для тестирования переполнения",
         "diff": {
           "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 10.43360254786036,
-          "misMatchPercentage": "10.43",
-          "analysisTime": 264
+          "rawMisMatchPercentage": 92.4901463963964,
+          "misMatchPercentage": "92.49",
+          "analysisTime": 806
         },
-        "diffImage": "../bitmaps_test/20240320-222622/failed_diff_hero-underflow-strict-tablet.png"
+        "diffImage": "../bitmaps_test/20240320-222314/failed_diff_hero-underflow-strict-tablet.png"
       },
       "status": "fail"
     }
