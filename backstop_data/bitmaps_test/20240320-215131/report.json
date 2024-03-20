@@ -4,9 +4,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-strict-desktop.log.json",
         "test": "../bitmaps_test/20240320-215131/events-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-215131/events-strict-desktop.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-desktop.png",
         "label": "events-strict",
@@ -31,9 +29,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-mobile.png",
-        "referenceLog": "../../test-htmlcss/reference/events-strict-mobile.log.json",
         "test": "../bitmaps_test/20240320-215131/events-strict-mobile.png",
-        "testLog": "../bitmaps_test/20240320-215131/events-strict-mobile.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-mobile.png",
         "label": "events-strict",
@@ -58,9 +54,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/events-strict-tablet.log.json",
         "test": "../bitmaps_test/20240320-215131/events-strict-tablet.png",
-        "testLog": "../bitmaps_test/20240320-215131/events-strict-tablet.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-tablet.png",
         "label": "events-strict",
@@ -85,9 +79,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-overflow-strict-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-overflow-strict-desktop.log.json",
         "test": "../bitmaps_test/20240320-215131/events-overflow-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-215131/events-overflow-strict-desktop.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-overflow-strict-desktop.png",
         "label": "events-overflow-strict",
@@ -112,9 +104,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-underflow-strict-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-underflow-strict-desktop.log.json",
         "test": "../bitmaps_test/20240320-215131/events-underflow-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-215131/events-underflow-strict-desktop.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-underflow-strict-desktop.png",
         "label": "events-underflow-strict",

@@ -4,9 +4,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-strict-desktop.log.json",
-        "test": "../bitmaps_test/20240320-215131/events-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-215131/events-strict-desktop.log.json",
+        "test": "../bitmaps_test/20240320-214704/events-strict-desktop.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-desktop.png",
         "label": "events-strict",
@@ -21,9 +19,9 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.29800334768053566,
-          "misMatchPercentage": "0.30",
-          "analysisTime": 123
+          "rawMisMatchPercentage": 0.637055635262235,
+          "misMatchPercentage": "0.64",
+          "analysisTime": 231
         }
       },
       "status": "pass"
@@ -31,9 +29,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-mobile.png",
-        "referenceLog": "../../test-htmlcss/reference/events-strict-mobile.log.json",
-        "test": "../bitmaps_test/20240320-215131/events-strict-mobile.png",
-        "testLog": "../bitmaps_test/20240320-215131/events-strict-mobile.log.json",
+        "test": "../bitmaps_test/20240320-214704/events-strict-mobile.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-mobile.png",
         "label": "events-strict",
@@ -48,9 +44,9 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.6371079213184476,
-          "misMatchPercentage": "0.64",
-          "analysisTime": 141
+          "rawMisMatchPercentage": 0.6524189261031367,
+          "misMatchPercentage": "0.65",
+          "analysisTime": 49
         }
       },
       "status": "pass"
@@ -58,9 +54,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/events-strict-tablet.log.json",
-        "test": "../bitmaps_test/20240320-215131/events-strict-tablet.png",
-        "testLog": "../bitmaps_test/20240320-215131/events-strict-tablet.log.json",
+        "test": "../bitmaps_test/20240320-214704/events-strict-tablet.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-tablet.png",
         "label": "events-strict",
@@ -75,9 +69,9 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.5224044746103569,
-          "misMatchPercentage": "0.52",
-          "analysisTime": 148
+          "rawMisMatchPercentage": 0.5644325037707391,
+          "misMatchPercentage": "0.56",
+          "analysisTime": 189
         }
       },
       "status": "pass"
@@ -85,9 +79,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-overflow-strict-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-overflow-strict-desktop.log.json",
-        "test": "../bitmaps_test/20240320-215131/events-overflow-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-215131/events-overflow-strict-desktop.log.json",
+        "test": "../bitmaps_test/20240320-214704/events-overflow-strict-desktop.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-overflow-strict-desktop.png",
         "label": "events-overflow-strict",
@@ -102,19 +94,18 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.29989638131675433,
-          "misMatchPercentage": "0.30",
-          "analysisTime": 95
-        }
+          "rawMisMatchPercentage": 0.7336999840586641,
+          "misMatchPercentage": "0.73",
+          "analysisTime": 254
+        },
+        "diffImage": "../bitmaps_test/20240320-214704/failed_diff_events-overflow-strict-desktop.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-underflow-strict-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-underflow-strict-desktop.log.json",
-        "test": "../bitmaps_test/20240320-215131/events-underflow-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-215131/events-underflow-strict-desktop.log.json",
+        "test": "../bitmaps_test/20240320-214704/events-underflow-strict-desktop.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-underflow-strict-desktop.png",
         "label": "events-underflow-strict",
@@ -129,9 +120,9 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.2978040809819863,
-          "misMatchPercentage": "0.30",
-          "analysisTime": 146
+          "rawMisMatchPercentage": 0.47355730910250277,
+          "misMatchPercentage": "0.47",
+          "analysisTime": 227
         }
       },
       "status": "pass"
