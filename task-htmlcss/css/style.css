@@ -388,7 +388,8 @@ body {
 @media (max-width: 768px) {
   .hero-container  {
     position: relative;
-    min-height: 592px;
+    /* min-height: 592px; */
+    min-height: 580px;
     height: 100%;
   }
 }
@@ -410,7 +411,7 @@ body {
 @media (max-width: 768px) {
   .hero-box {
   max-width: 660px;
-  padding: 0 0 0 110px;
+  padding: 0 0 0 108px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -423,7 +424,7 @@ body {
 @media (max-width: 375px) {
   .hero-box {
   max-width: 370px;
-  padding: 25px 0 0 7px;
+  padding: 25px 0 0 5px;
   }
 }
 

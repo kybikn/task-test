@@ -4,9 +4,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-strict-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-strict-desktop.log.json",
         "test": "../bitmaps_test/20240320-221457/hero-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-221457/hero-strict-desktop.log.json",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-strict-desktop.png",
         "label": "hero-strict",
@@ -31,9 +29,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-strict-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-strict-tablet.log.json",
         "test": "../bitmaps_test/20240320-221457/hero-strict-tablet.png",
-        "testLog": "../bitmaps_test/20240320-221457/hero-strict-tablet.log.json",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-strict-tablet.png",
         "label": "hero-strict",
@@ -58,9 +54,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-strict-mobile.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-strict-mobile.log.json",
         "test": "../bitmaps_test/20240320-221457/hero-strict-mobile.png",
-        "testLog": "../bitmaps_test/20240320-221457/hero-strict-mobile.log.json",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-strict-mobile.png",
         "label": "hero-strict",
@@ -85,9 +79,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-overflow-strict-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-overflow-strict-desktop.log.json",
         "test": "../bitmaps_test/20240320-221457/hero-overflow-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-221457/hero-overflow-strict-desktop.log.json",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-overflow-strict-desktop.png",
         "label": "hero-overflow-strict",
@@ -112,9 +104,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/hero-underflow-strict-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/hero-underflow-strict-tablet.log.json",
         "test": "../bitmaps_test/20240320-221457/hero-underflow-strict-tablet.png",
-        "testLog": "../bitmaps_test/20240320-221457/hero-underflow-strict-tablet.log.json",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero-underflow-strict-tablet.png",
         "label": "hero-underflow-strict",
