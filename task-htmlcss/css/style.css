@@ -487,4 +487,203 @@ body {
   }
 }
 
+/* -------------events------------- */
+.events-container {
+  min-height: 697px;
+  height: 100%;
+  padding: 60px 105px;
+  background-color: #F0EAD6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.events-title {
+  margin: 0;
+  font-family: "Playfair", serif;
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #513833;
+}
+
+.events-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.events-card {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-width: 390px;
+height: 415px;
+border-radius: 5px;
+border: 0;
+list-style: none;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.card-1 {
+  background-image: url("../img/card1.jpg");
+}
+
+.card-2 {
+  background-image: url("../img/card2.jpg");
+}
+
+.card-3 {
+  background-image: url("../img/card3.jpg");
+}
+
+.events-card-button {
+  height: 32px; 
+  transition: 1s;
+  margin: 25px 0 0 20px;
+  cursor: pointer;
+  background-color: #D2691E;
+  border-radius: 5px;
+  width: 110px;
+  border: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.events-card-button-icon {
+  padding: 10px 5px 0 0 ;
+}
+
+.events-card-button-link {
+text-decoration: none;
+font-family: "Montserrat", serif;
+font-size: 12px;
+line-height: 12px;
+font-weight: 500;
+color: #FFFFFF;
+text-align: center;
+}
+
+.events-card-button::after {
+  content: '';
+  background: url(../img/map.svg) center no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 45%;
+  bottom: 0;
+  padding-right: 10px;
+}
+
+.events-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 25px 20px;
+}
+
+.events-content-calendar {
+  width: 110px;
+  display: flex;
+}
+
+.events-content-calendar-icon {
+padding-right: 10px;
+}
+
+.events-content-calendar-text {
+  font-family: "Montserrat", serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.events-content-title {
+  margin: 20px 0 35px 0;
+  font-family: "Playfair", serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.events-content-rate {
+  margin: 0 0 8px 0;
+  font-family: "Montserrat", serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.events-link {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  margin: 0 20px 0 0 ;
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #D2691E;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.events-link::after {
+  content: "";
+  background: url(../img/arrow.svg) no-repeat center;
+  position: absolute;
+  top: 0;
+  left: 19%;
+  right: 0;
+  bottom: 0;
+}
+
+/* -------------rating------------- */
+.rating-area {
+	overflow: hidden;
+	width: 75px;
+}
+
+.rating-area:not(:checked) > input {
+	display: none;
+}
+
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 15px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 13px;
+	color: #FFFFFF;
+  
+}
+
+.rating-area:not(:checked) > label:before {
+	content: '☆';
+}
+
+.rating-area > input:checked ~ label {
+	color: #FFFFFF;
+}
+
+.rating-area > input:checked ~ label:before {
+  content: '★'; 
+}
+
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+  color: lightgrey;
+}
+
+
 
