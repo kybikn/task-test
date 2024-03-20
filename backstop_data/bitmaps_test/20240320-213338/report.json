@@ -1,10 +1,10 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-desktop.png",
-        "test": "../bitmaps_test/20240320-214145/events-strict-desktop.png",
+        "test": "../bitmaps_test/20240320-213338/events-strict-desktop.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-desktop.png",
         "label": "events-strict",
@@ -19,9 +19,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.6510043041606887,
-          "misMatchPercentage": "0.65",
-          "analysisTime": 126
+          "rawMisMatchPercentage": 0.26133827514745733,
+          "misMatchPercentage": "0.26",
+          "analysisTime": 245
         }
       },
       "status": "pass"
@@ -29,7 +29,7 @@ report({
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-mobile.png",
-        "test": "../bitmaps_test/20240320-214145/events-strict-mobile.png",
+        "test": "../bitmaps_test/20240320-213338/events-strict-mobile.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-mobile.png",
         "label": "events-strict",
@@ -44,17 +44,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.6371079213184476,
-          "misMatchPercentage": "0.64",
-          "analysisTime": 40
-        }
+          "rawMisMatchPercentage": 1.4932482721956406,
+          "misMatchPercentage": "1.49",
+          "analysisTime": 51
+        },
+        "diffImage": "../bitmaps_test/20240320-213338/failed_diff_events-strict-mobile.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-tablet.png",
-        "test": "../bitmaps_test/20240320-214145/events-strict-tablet.png",
+        "test": "../bitmaps_test/20240320-213338/events-strict-tablet.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-tablet.png",
         "label": "events-strict",
@@ -69,17 +70,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.5224044746103569,
-          "misMatchPercentage": "0.52",
-          "analysisTime": 85
-        }
+          "rawMisMatchPercentage": 1.2804801407742583,
+          "misMatchPercentage": "1.28",
+          "analysisTime": 73
+        },
+        "diffImage": "../bitmaps_test/20240320-213338/failed_diff_events-strict-tablet.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-overflow-strict-desktop.png",
-        "test": "../bitmaps_test/20240320-214145/events-overflow-strict-desktop.png",
+        "test": "../bitmaps_test/20240320-213338/events-overflow-strict-desktop.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-overflow-strict-desktop.png",
         "label": "events-overflow-strict",
@@ -94,18 +96,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.7483460864020405,
-          "misMatchPercentage": "0.75",
-          "analysisTime": 135
-        },
-        "diffImage": "../bitmaps_test/20240320-214145/failed_diff_events-overflow-strict-desktop.png"
+          "rawMisMatchPercentage": 0.2625338753387534,
+          "misMatchPercentage": "0.26",
+          "analysisTime": 279
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-underflow-strict-desktop.png",
-        "test": "../bitmaps_test/20240320-214145/events-underflow-strict-desktop.png",
+        "test": "../bitmaps_test/20240320-213338/events-underflow-strict-desktop.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-underflow-strict-desktop.png",
         "label": "events-underflow-strict",
@@ -120,12 +121,12 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.4874063446516818,
-          "misMatchPercentage": "0.49",
-          "analysisTime": 139
+          "rawMisMatchPercentage": 0.26014267495616133,
+          "misMatchPercentage": "0.26",
+          "analysisTime": 222
         }
       },
       "status": "pass"
     }
   ]
-});
+}

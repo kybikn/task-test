@@ -5,8 +5,8 @@
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-desktop.png",
         "referenceLog": "../../test-htmlcss/reference/events-strict-desktop.log.json",
-        "test": "../bitmaps_test/20240320-185132/events-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-185132/events-strict-desktop.log.json",
+        "test": "../bitmaps_test/20240320-214145/events-strict-desktop.png",
+        "testLog": "../bitmaps_test/20240320-214145/events-strict-desktop.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-desktop.png",
         "label": "events-strict",
@@ -21,9 +21,9 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.6316754344014028,
-          "misMatchPercentage": "0.63",
-          "analysisTime": 145
+          "rawMisMatchPercentage": 0.6510043041606887,
+          "misMatchPercentage": "0.65",
+          "analysisTime": 126
         }
       },
       "status": "pass"
@@ -32,8 +32,8 @@
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-mobile.png",
         "referenceLog": "../../test-htmlcss/reference/events-strict-mobile.log.json",
-        "test": "../bitmaps_test/20240320-185132/events-strict-mobile.png",
-        "testLog": "../bitmaps_test/20240320-185132/events-strict-mobile.log.json",
+        "test": "../bitmaps_test/20240320-214145/events-strict-mobile.png",
+        "testLog": "../bitmaps_test/20240320-214145/events-strict-mobile.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-mobile.png",
         "label": "events-strict",
@@ -48,9 +48,9 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.6524189261031367,
-          "misMatchPercentage": "0.65",
-          "analysisTime": 207
+          "rawMisMatchPercentage": 0.6371079213184476,
+          "misMatchPercentage": "0.64",
+          "analysisTime": 40
         }
       },
       "status": "pass"
@@ -59,8 +59,8 @@
       "pair": {
         "reference": "../../test-htmlcss/reference/events-strict-tablet.png",
         "referenceLog": "../../test-htmlcss/reference/events-strict-tablet.log.json",
-        "test": "../bitmaps_test/20240320-185132/events-strict-tablet.png",
-        "testLog": "../bitmaps_test/20240320-185132/events-strict-tablet.log.json",
+        "test": "../bitmaps_test/20240320-214145/events-strict-tablet.png",
+        "testLog": "../bitmaps_test/20240320-214145/events-strict-tablet.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-strict-tablet.png",
         "label": "events-strict",
@@ -75,9 +75,9 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.6282601181498241,
-          "misMatchPercentage": "0.63",
-          "analysisTime": 135
+          "rawMisMatchPercentage": 0.5224044746103569,
+          "misMatchPercentage": "0.52",
+          "analysisTime": 85
         }
       },
       "status": "pass"
@@ -86,8 +86,8 @@
       "pair": {
         "reference": "../../test-htmlcss/reference/events-overflow-strict-desktop.png",
         "referenceLog": "../../test-htmlcss/reference/events-overflow-strict-desktop.log.json",
-        "test": "../bitmaps_test/20240320-185132/events-overflow-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-185132/events-overflow-strict-desktop.log.json",
+        "test": "../bitmaps_test/20240320-214145/events-overflow-strict-desktop.png",
+        "testLog": "../bitmaps_test/20240320-214145/events-overflow-strict-desktop.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-overflow-strict-desktop.png",
         "label": "events-overflow-strict",
@@ -102,11 +102,11 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.7209469153515065,
-          "misMatchPercentage": "0.72",
-          "analysisTime": 143
+          "rawMisMatchPercentage": 0.7483460864020405,
+          "misMatchPercentage": "0.75",
+          "analysisTime": 135
         },
-        "diffImage": "../bitmaps_test/20240320-185132/failed_diff_events-overflow-strict-desktop.png"
+        "diffImage": "../bitmaps_test/20240320-214145/failed_diff_events-overflow-strict-desktop.png"
       },
       "status": "fail"
     },
@@ -114,8 +114,8 @@
       "pair": {
         "reference": "../../test-htmlcss/reference/events-underflow-strict-desktop.png",
         "referenceLog": "../../test-htmlcss/reference/events-underflow-strict-desktop.log.json",
-        "test": "../bitmaps_test/20240320-185132/events-underflow-strict-desktop.png",
-        "testLog": "../bitmaps_test/20240320-185132/events-underflow-strict-desktop.log.json",
+        "test": "../bitmaps_test/20240320-214145/events-underflow-strict-desktop.png",
+        "testLog": "../bitmaps_test/20240320-214145/events-underflow-strict-desktop.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-underflow-strict-desktop.png",
         "label": "events-underflow-strict",
@@ -130,9 +130,9 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.4759485094850948,
-          "misMatchPercentage": "0.48",
-          "analysisTime": 187
+          "rawMisMatchPercentage": 0.4874063446516818,
+          "misMatchPercentage": "0.49",
+          "analysisTime": 139
         }
       },
       "status": "pass"
