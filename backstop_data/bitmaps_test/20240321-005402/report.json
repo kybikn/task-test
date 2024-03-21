@@ -1,15 +1,15 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
       "pair": {
-        "reference": "../../test-js/component-1/reference/accordeon_21.png",
-        "test": "../bitmaps_test/20240321-024443/accordeon_21.png",
+        "reference": "../../test-js/component-1/reference/accordeon_11.png",
+        "test": "../bitmaps_test/20240321-005402/accordeon_11.png",
         "selector": "document",
-        "fileName": "accordeon_21.png",
-        "label": "accordeon 2.1",
+        "fileName": "accordeon_11.png",
+        "label": "accordeon 1.1",
         "misMatchThreshold": 4,
-        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-js/component-1/index.html?tabs_limit=1",
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-js/component-1/index.html?tabs_limit=0",
         "expect": 0,
         "viewportLabel": "desktop",
         "diff": {
@@ -20,20 +20,20 @@ report({
           },
           "rawMisMatchPercentage": 0,
           "misMatchPercentage": "0.00",
-          "analysisTime": 46
+          "analysisTime": 45
         }
       },
       "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-js/component-1/reference/accordeon_22.png",
-        "test": "../bitmaps_test/20240321-024443/accordeon_22.png",
+        "reference": "../../test-js/component-1/reference/accordeon_12.png",
+        "test": "../bitmaps_test/20240321-005402/accordeon_12.png",
         "selector": "document",
-        "fileName": "accordeon_22.png",
-        "label": "accordeon 2.2",
+        "fileName": "accordeon_12.png",
+        "label": "accordeon 1.2",
         "misMatchThreshold": 4,
-        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-js/component-1/index.html?tabs_limit=1",
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-js/component-1/index.html?tabs_limit=0",
         "expect": 0,
         "viewportLabel": "desktop",
         "diff": {
@@ -44,20 +44,20 @@ report({
           },
           "rawMisMatchPercentage": 0,
           "misMatchPercentage": "0.00",
-          "analysisTime": 47
+          "analysisTime": 42
         }
       },
       "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-js/component-1/reference/accordeon_23.png",
-        "test": "../bitmaps_test/20240321-024443/accordeon_23.png",
+        "reference": "../../test-js/component-1/reference/accordeon_13.png",
+        "test": "../bitmaps_test/20240321-005402/accordeon_13.png",
         "selector": "document",
-        "fileName": "accordeon_23.png",
-        "label": "accordeon 2.3",
+        "fileName": "accordeon_13.png",
+        "label": "accordeon 1.3",
         "misMatchThreshold": 4,
-        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-js/component-1/index.html?tabs_limit=1",
+        "url": "file:///Users/kybikn/Documents/Programming/Проекты/task-test/task-js/component-1/index.html?tabs_limit=0",
         "expect": 0,
         "viewportLabel": "desktop",
         "diff": {
@@ -68,10 +68,10 @@ report({
           },
           "rawMisMatchPercentage": 0,
           "misMatchPercentage": "0.00",
-          "analysisTime": 43
+          "analysisTime": 42
         }
       },
       "status": "pass"
     }
   ]
-});
+}
