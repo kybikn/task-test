@@ -101,7 +101,6 @@
     // Дата выезда должна быть больше даты заезда минимум на 4 дня
     const timeDifference = checkOutDate.getTime() - checkInDate.getTime();
     const daysDifference = Math.floor(timeDifference / (1000 * 3600 * 24));
-    // console.log('daysDifference:', daysDifference);
     if (daysDifference < 4) {
       console.log('Дата выезда должна быть больше даты заезда минимум на 4 дня.')
       errorInput(inputCheckin);
@@ -171,51 +170,3 @@
 
   form.submit();
 })();
-
-// console.log('form:', form);
-// const formInput = document.querySelector('.field-input');
-// console.log('formInput:', formInput);
-// const formInputs = document.querySelectorAll('.field-input');
-// console.log('formInputs:', formInputs);
-// const phoneInput = form.querySelectorById('#phone');
-// const inputList = Array.from(document.querySelectorAll('.field-input'));
-// console.log('inputList:', inputList);
-// const phone = inputPhone.value;
-
-// function setEventListeners() {
-// inputList.forEach(formInputs) {
-//   formInputs.addEventListener("input", () => {
-//     checkInputValidity(formInputs);
-//   });
-// }
-
-// inputList.forEach((formInput) => {
-//   console.log('formInput', formInput);
-//   inputList.addEventListener('input', checkInputValidity());
-// })
-
-// inputList.forEach(function (formInput) {
-//   checkInputValidity(formInput)
-// inputList.addEventListener('input', checkInputValidity());
-// });
-
-// inputDate.addEventListener('input', checkInputValidity)
-
-// const inputValue = formInput.value;
-// inputList.map(inputValue => inputValue.value)
-// inputList.forEach(formInput)
-// console.log('inputList:', inputList);
-// if (!inputList.validity.valid) {
-// if (!inputValue.validity.valid) {
-// if (!inputList.value) {
-// if (!inputDate.value || phone || date) {
-// if (!inputPhone.value) {
-// console.log('inputInput.value:', inputValue);
-// formInput.classList.add('field-error');
-// inputList.classList.add('field-error');
-// form.classList.add('field-error');
-// } else {
-// inputList.classList.remove('field-error');
-// form.classList.remove('field-error');
-//   formInput.classList.remove('field-error');
-// }
