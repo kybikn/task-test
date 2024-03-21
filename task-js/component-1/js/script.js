@@ -28,17 +28,40 @@
   const accordeonEl = document.querySelector('.accordeon');
   const accordeonTitles = accordeonEl.querySelectorAll('.accordeon-item-title');
   const accordeonItems = accordeonEl.querySelectorAll('.accordeon-item');
+  const n = accordeonTitles.length;
+  for (let i = 0; i < n; i += 1) {
+    accordeonTitles[i].dataset.titleid = i
+  }
+  let opened = [];
 
   function processClick(e) {
     if (!e.target.className === 'accordeon-item-title') { return }
-    const parentEl = e.target.closest('.accordeon-item');
-    if (parentEl.classList.contains('accordeon-item--open')) {
-      parentEl.classList.remove('accordeon-item--open')
+    const el = e.target;
+    const titleid = parseInt(el.dataset.titleid);
+
+    if (opened.includes(titleid)) {
+      opened = opened.filter(open => open !== titleid);
+      updateView()
+      return
+    }
+
+    if (opened.length < settings.tabsLimit || settings.tabsLimit === 0) {
+      opened.push(titleid);
     } else {
-      if (settings.tabsLimit === 1) {
-        accordeonItems.forEach(item => item.classList.remove('accordeon-item--open'))
+      opened.push(titleid);
+      opened.shift();
+    }
+    updateView()
+  }
+
+  function updateView() {
+    for (let i = 0; i < n; i += 1) {
+      const item = accordeonItems[i];
+      if (opened.includes(i)) {
+        item.classList.add('accordeon-item--open')
+      } else {
+        item.classList.remove('accordeon-item--open')
       }
-      parentEl.classList.add('accordeon-item--open')
     }
   }
 
