@@ -4,9 +4,7 @@
     {
       "pair": {
         "reference": "../../test-js/component-1/reference/accordeon_31.png",
-        "referenceLog": "../../test-js/component-1/reference/accordeon_31.log.json",
         "test": "../bitmaps_test/20240321-231502/accordeon_31.png",
-        "testLog": "../bitmaps_test/20240321-231502/accordeon_31.log.json",
         "selector": "document",
         "fileName": "accordeon_31.png",
         "label": "accordeon 3.1",
@@ -30,9 +28,7 @@
     {
       "pair": {
         "reference": "../../test-js/component-1/reference/accordeon_32.png",
-        "referenceLog": "../../test-js/component-1/reference/accordeon_32.log.json",
         "test": "../bitmaps_test/20240321-231502/accordeon_32.png",
-        "testLog": "../bitmaps_test/20240321-231502/accordeon_32.log.json",
         "selector": "document",
         "fileName": "accordeon_32.png",
         "label": "accordeon 3.2",
@@ -56,9 +52,7 @@
     {
       "pair": {
         "reference": "../../test-js/component-1/reference/accordeon_33.png",
-        "referenceLog": "../../test-js/component-1/reference/accordeon_33.log.json",
         "test": "../bitmaps_test/20240321-231502/accordeon_33.png",
-        "testLog": "../bitmaps_test/20240321-231502/accordeon_33.log.json",
         "selector": "document",
         "fileName": "accordeon_33.png",
         "label": "accordeon 3.3",
@@ -82,9 +76,7 @@
     {
       "pair": {
         "reference": "../../test-js/component-1/reference/accordeon_34.png",
-        "referenceLog": "../../test-js/component-1/reference/accordeon_34.log.json",
         "test": "../bitmaps_test/20240321-231502/accordeon_34.png",
-        "testLog": "../bitmaps_test/20240321-231502/accordeon_34.log.json",
         "selector": "document",
         "fileName": "accordeon_34.png",
         "label": "accordeon 3.4",
