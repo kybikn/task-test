@@ -1,83 +1,83 @@
 # Тестовое задание по верстке
 ### Репозиторий:  [Click here!](https://github.com/kybikn/task-test)
 
-## Описание:
+#### Описание:
 Сверстайте три блока страницы в соответствии с графическим макетом: шапка, промо-блок и события.<br>
 Верстать нужно блоки в одном HTML-файле, без препроцессора.<br>
 Для каждого блока реализуйте адаптивные версии (десктоп, планшет, мобильная версия) и предусмотренное макетом поведение при переполнении или недополнении.<br>
 
-## Правила оценивания вёрстки:
+#### Правила оценивания вёрстки:
 Для каждого блока есть набор автотестов с «мягким» и «строгим» соответствием PP (пиксель пёрфект).<br>
 За каждый пройденный автотест в блокe начисляется 1 балл.<br>
 Баллы за блок засчитаются только в том случае, если в нём проходит хотя бы один автотест на переполнение.<br>
 
-## Требования к файловой структуре:
+#### Требования к файловой структуре:
 Вся разметка должна вестись в файле task-htmlcss/index.html, data-атрибуты блоков удалять или менять запрещено!<br>
 Все внешние ресурсы в разметке и стилях подключайте с помощью относительных путей, чтобы вёрстка была полностью работоспособной без сервера и работала из файловой системы.<br>
 
-## Важные требования к настройкам Windows:
+#### Важные требования к настройкам Windows:
 Запускайте автотесты строго при масштабе экрана 100% иначе автотесты могут не проходить.<br>
 
 
 1. Шапка
 #### Макет:  [Click here!](https://www.figma.com/file/zwPYmjShzV3RFhG9YalKSX/%D0%A7%D0%B0%D1%81%D1%82%D1%8C-%D0%BF%D0%B5%D1%80%D0%B2%D0%B0%D1%8F.-%D0%92%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0.-%D0%A8%D0%B0%D0%BF%D0%BA%D0%B0?type=design&node-id=0%3A1&mode=design&t=JaKpgcAfCiTkTLUo-1)
-Команда для запуска автотестов в режиме «мягкого» PP: npm run test:htmlcss:component-1
-Команда для запуска автотестов в режиме «строгого» PP: npm run test:htmlcss:component-1-strict
+Команда для запуска автотестов в режиме «мягкого» PP: npm run test:htmlcss:component-1<br>
+Команда для запуска автотестов в режиме «строгого» PP: npm run test:htmlcss:component-1-strict<br>
 
 2. Промо-блок
 #### Макет:  [Click here!](https://www.figma.com/file/bngYA2c7rOcLhf6wajaFBN/%D0%A7%D0%B0%D1%81%D1%82%D1%8C-%D0%BF%D0%B5%D1%80%D0%B2%D0%B0%D1%8F.-%D0%92%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0.-%D0%9F%D1%80%D0%BE%D0%BC%D0%BE-%D0%B1%D0%BB%D0%BE%D0%BA?type=design&node-id=0-1&mode=design)
-Команда для запуска автотестов в режиме «мягкого» PP: npm run test:htmlcss:component-2
-Команда для запуска автотестов в режиме «строгого» PP: npm run test:htmlcss:component-2-strict.
+Команда для запуска автотестов в режиме «мягкого» PP: npm run test:htmlcss:component-2<br>
+Команда для запуска автотестов в режиме «строгого» PP: npm run test:htmlcss:component-2-strict<br>
 
 3. События
 #### Макет:  [Click here!](https://www.figma.com/file/REIBwoeKBYkfA6DAlsVtk1/%D0%A7%D0%B0%D1%81%D1%82%D1%8C-%D0%BF%D0%B5%D1%80%D0%B2%D0%B0%D1%8F.-%D0%92%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0.-%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F?type=design&node-id=0-1&mode=design&t=Bz1Sdqzu0ZaEAFD6-0)
-Команда для запуска автотестов в режиме «мягкого» PP: npm run test:htmlcss:component-3
-Команда для запуска автотестов в режиме «строгого» PP: npm run test:htmlcss:component-3-strict
+Команда для запуска автотестов в режиме «мягкого» PP: npm run test:htmlcss:component-3<br>
+Команда для запуска автотестов в режиме «строгого» PP: npm run test:htmlcss:component-3-strict<br>
 
 
 # Тестовое задание по JavaScript
 
-## Описание:
+#### Описание:
 Реализуйте в соответствии с техническими заданиями JavaScript-компоненты: аккордеон и форма бронирования.<br>
 
-## Правила оценивания:
+#### Правила оценивания:
 Каждый JavaScript-компонент разделён на три уровня сложности.<br>
 Компонент считается выполненным на текущем уровне сложности, если все автотесты для этого уровня проходят успешно.<br>
 Баллы за каждый уровень сложности начисляются, когда реализованы предыдущие уровни этого компонента.<br>
 
-## Требования к файловой структуре:
-Папка компонента: task-js/component-1 и task-js/component-1
-Основной файл компонента: task-js/component-1/index.html и task-js/component-1/index.html
-Файл для написания логики: task-js/component-1/js/script.js и task-js/component-1/js/script.js
+#### Требования к файловой структуре:
+Папка компонента: task-js/component-1 и task-js/component-1<br>
+Основной файл компонента: task-js/component-1/index.html и task-js/component-1/index.html<br>
+Файл для написания логики: task-js/component-1/js/script.js и task-js/component-1/js/script.js<br>
 
 1. Аккордеон
 #### Техническое задание:  [Click here!](https://up.htmlacademy.ru/assets/intensives/membrana/1/tasks/40599u1vltlkehg7/accordeon.pdf)
-Команда запуска автотестов 1 уровня: npm run test:js:component-1:level-1.
-Команда запуска автотестов 2 уровня: npm run test:js:component-1:level-2.
-Команда запуска автотестов 3 уровня: npm run test:js:component-1:level-3.
+Команда запуска автотестов 1 уровня: npm run test:js:component-1:level-1<br>
+Команда запуска автотестов 2 уровня: npm run test:js:component-1:level-2<br>
+Команда запуска автотестов 3 уровня: npm run test:js:component-1:level-3<br>
 
 2. Форма бронирования
 #### Техническое задание:  [Click here!](https://up.htmlacademy.ru/assets/intensives/membrana/1/tasks/40599u1vltlkehg7/form.pdf)
-Команда запуска автотестов 1 уровня: npm run test:js:component-2:level-1.
-Команда запуска автотестов 2 уровня: npm run test:js:component-2:level-2.
-Команда запуска автотестов 3 уровня: npm run test:js:component-2:level-3.
+Команда запуска автотестов 1 уровня: npm run test:js:component-2:level-1<br>
+Команда запуска автотестов 2 уровня: npm run test:js:component-2:level-2<br>
+Команда запуска автотестов 3 уровня: npm run test:js:component-2:level-3<br>
 
 
-### Окружение
+#### Окружение
 Для выполнения заданий необходимо установить [Node.js](https://nodejs.org) последний LTS релиз. Если Node.js уже установлен, убедитесь, что его версия не ниже 18. Как ставить Node.js можно прочитать [в блоге](https://htmlacademy.ru/blog/js/installing-nodejs).<br>
 
 #### Установка
-В корне проекта установите зависимости.
+В корне проекта установите зависимости.<br>
 
 ```bash
 npm i
 ```
 
 #### Проверка тестового окружения
-Чтобы проверить работоспособность проекта, запустите команду тестирования в корне проекта.
+Чтобы проверить работоспособность проекта, запустите команду тестирования в корне проекта.<br>
 
 ```bash
 npm run test:example
 ```
 
-После выполнение в браузере откроются результаты тестирования.
+После выполнение в браузере откроются результаты тестирования.<br>
